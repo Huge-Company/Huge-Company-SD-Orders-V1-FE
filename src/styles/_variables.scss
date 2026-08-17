@@ -1,0 +1,74 @@
+// =========================================================
+// HUGE COMPANY — DESIGN SYSTEM
+// =========================================================
+
+$bc-dblue: #1b4e9b;
+$bc-dyellow: #f5ca5b;
+
+$bc-lgrey: #a8a8a9;
+$bc-dgrey: #454545;
+
+$bc-white: #ffffff;
+$bc-black: #000000;
+
+
+// =========================================================
+// CSS TOKENS
+// =========================================================
+
+:root {
+  --bc-dblue: #{$bc-dblue};
+  --bc-dyellow: #{$bc-dyellow};
+
+  --bc-lgrey: #{$bc-lgrey};
+  --bc-dgrey: #{$bc-dgrey};
+
+  --bc-white: #{$bc-white};
+  --bc-black: #{$bc-black};
+
+
+  // Surfaces
+  --surface-page: #f5f5f3;
+  --surface-primary: #ffffff;
+  --surface-secondary: #f7f7f6;
+  --surface-tertiary: #eeeeec;
+
+
+  // Text
+  --text-primary: #111111;
+  --text-secondary: #666666;
+  --text-tertiary: #929292;
+
+
+  // Borders
+  --border-subtle: rgba(0, 0, 0, 0.07);
+  --border-light: rgba(0, 0, 0, 0.045);
+
+
+  // Shadows
+  --shadow-soft:
+    0 1px 2px rgba(0, 0, 0, 0.03),
+    0 8px 30px rgba(0, 0, 0, 0.045);
+
+  --shadow-hover:
+    0 2px 4px rgba(0, 0, 0, 0.04),
+    0 14px 40px rgba(0, 0, 0, 0.07);
+
+
+  // Radius
+  --radius-small: 10px;
+  --radius-medium: 16px;
+  --radius-large: 22px;
+  --radius-pill: 999px;
+
+
+  // Layout
+  --sidebar-width: 248px;
+  --content-max-width: 1480px;
+
+
+  // Motion
+  --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: 180ms var(--ease-standard);
+  --transition-normal: 320ms var(--ease-standard);
+}
